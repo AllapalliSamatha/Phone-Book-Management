@@ -1,0 +1,48 @@
+.weather-container {
+    position: fixed; /* Fixed position to stay in the same place */
+    top: 20%; /* Center vertically */
+    right: 20px; /* Position from the right edge */
+    transform: translateY(-30%); /* Adjust for the height of the element */
+    background-color: lavender; /* Light background color */
+    padding: 10px; /* Reduced padding for a smaller container */
+    border-radius: 8px; /* Slightly less rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Slightly shallower shadow */
+    z-index: 1000; /* Ensure it is above other content */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    width: 160px; /* Fixed width for the container */
+}
+
+.weather-container:hover {
+    transform: translateY(-30%) scale(1.02); /* Slightly increase scale on hover */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.weather-error {
+    color: #ff5733; /* Bright red color for error messages */
+    text-align: center; /* Center align error message */
+    font-size: 14px; /* Smaller font size for errors */
+    font-weight: bold; /* Make error text bold */
+    margin-bottom: 6px; /* Space below the error message */
+}
+
+.weather-text {
+    color: #2c3e50; /* Darker color for text */
+    font-size: 16px; /* Smaller font size for better readability */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center align text */
+    margin: 3px 0; /* Reduced margin for spacing */
+}
+
+.weather-location {
+    color: #2980b9; /* Soft blue color for location */
+    font-size: 14px; /* Smaller font size for location */
+    text-align: center; /* Center align location */
+}
+
+/* Adjusting the weather icon size */
+.weather-icon {
+    display: block;
+    margin: 0 auto; /* Center align the icon */
+    width: 30px; /* Further reduced size of the icon */
+    height: 30px; /* Further reduced size of the icon */
+}

@@ -1,0 +1,57 @@
+.contactTable{
+    width:80%;
+    margin:50px auto;
+    background-color:white;
+    padding:50px;
+    border-radius:10px;
+    box-shadow:1px 1px 8px rgba(0,0,0,0,0.065);
+    height:80px;
+}
+.contactTable table{
+     width:100%;
+     margin-top:50px;
+     background-color: white; /* Background color for the table */
+     border-radius: 10px;
+     
+
+}
+.custom-btn {
+    margin-bottom: 20px; 
+    margin-top: 50px;   
+    align-self: flex-start; 
+  }
+
+.contactTable table thead th{
+background-color:pink;
+color:white;
+  }
+
+.contactTable table tbody td {
+     
+    padding:10px;
+    text-align:center;
+    vertical-align:middle;
+  }
+  /* Contact.css */
+  .add-contact-btn {
+    background-color: #008080; /* Teal green color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 15px 20px; /* Increase padding for height and width */
+    font-size: 20px; /* Increase font size */
+    border-radius: 5px; /* Adjust border radius if needed */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.add-contact-btn:hover {
+    background-color: #006666; /* Darker teal green on hover */
+}
+.noData{
+  margin-top:20px;
+  text-align:center;
+
+}
+
+
+
+  
